@@ -4,5 +4,13 @@
   "semi": true,
   "singleQuote": true,
   "printWidth": 120,
-  "bracketSpacing": true
+  "bracketSpacing": true,
+   "overrides": [
+    {
+      "files": ["*.scss", "*.css"],
+      "options": {
+        "singleQuote": false
+      }
+    }
+  ]
 }
